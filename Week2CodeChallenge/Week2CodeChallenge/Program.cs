@@ -12,18 +12,33 @@ namespace Week2CodeChallenge
 
         static void Main(string[] args)
         {
-            for (int i = 0; i < 21; i++)
-            {
-                FizzBuzz(i);
-            }
-            LetterCounter('i', "I love biscuits and gravy. It's the best breakfast ever.");
-            LetterCounter('n', "Never gonna give you up. Never gonna let you down.");
-            LetterCounter('s', "Sally sells seashells down by the seashore. She's from Sussex.");
-           
+            //for (int i = 0; i < 21; i++)
+            //{
+            //    FizzBuzz(i);
+            //}
+            //LetterCounter('i', "I love biscuits and gravy. It's the best breakfast ever.");
+            //LetterCounter('n', "Never gonna give you up. Never gonna let you down.");
+            //LetterCounter('s', "Sally sells seashells down by the seashore. She's from Sussex.");
+            //string s1 = "Cshr";
+            //string s2 = s1.Insert(3, "a");
+            //string s3 = s2.Insert(6, "p");
+         
 
-           
-            Console.ReadKey();
+            //Console.WriteLine(s3);
+            int a = 5;
+            int b = 2;
+            int result = MakeComplicatedCalculation(a, b);
+            Console.WriteLine(result);
         }
+
+
+
+        static int MakeComplicatedCalculation(int a, int b)
+        {
+            return a * b;
+        }
+           
+       
         /// <summary>
         /// Prints out Fizz or Buzz if a number is divisible by 5 or 3, or FizzBuzz if divisible by both 5 and 3.
         /// Otherwise, prints out a number itself.
